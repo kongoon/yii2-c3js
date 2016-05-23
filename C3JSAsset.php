@@ -10,9 +10,6 @@ class C3JSAsset extends AssetBundle
     ];
     public $js = [
         'c3.js',
-        'extensions/js/c3ext.js',
-        'extensions/chart-bubble/bubble.js',
-        'extensions/exporter/phantom-exporter.js',
     ];
     public $depends = ['yii\web\JqueryAsset'];
 }
